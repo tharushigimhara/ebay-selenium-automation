@@ -9,7 +9,7 @@ public class HomePage {
 
     @FindBy(id = "gh-shop-a")
     private WebElement shopByCategoryElement;
-    @FindBy(linkText = "Fashion")
+    @FindBy(linkText ="Fashion")
     private WebElement fashionElement;
 
     public HomePage clickshopbycategory() {

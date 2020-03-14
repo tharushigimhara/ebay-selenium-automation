@@ -12,7 +12,6 @@ public class ShoesPage {
 
 
     public MenShoesPage clickMensShoes(){
-
         TestApp.getInstance().waitForElement(By.linkText("Men\'s Shoes"), 20);
         mensShoesElement.click();
         return PageFactory.initElements(TestApp.getInstance().getDriver(),MenShoesPage.class);
